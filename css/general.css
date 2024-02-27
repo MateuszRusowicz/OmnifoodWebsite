@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  overflow-x: hidden;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+
+  font-size: 2rem;
+
+  padding: 1.6rem 3.2rem;
+  border-radius: 10px;
+  text-decoration: none;
+
+  transition: all 300ms;
+
+  border: none;
+  cursor: pointer;
+}
+
+.btn-main:link,
+.btn-main:visited {
+  color: #fff;
+  background-color: #e67e22;
+  font-weight: 600;
+}
+
+.btn-main:hover,
+.btn-main:active {
+  background-color: #cf711f;
+}
+
+.btn-secondary:link,
+.btn-secondary:visited {
+  color: #555;
+  background-color: #fff;
+}
+
+.btn-secondary:hover,
+.btn-secondary:active {
+  background-color: #fdf2e9;
+  box-shadow: inset 0 0 0 3px white;
+}
+
+.grid {
+  display: grid;
+  row-gap: 9.6rem;
+  column-gap: 6.4rem;
+}
+
+.grid-center {
+  align-items: center;
+}
+
+.grid-2c {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3c {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4c {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-5c {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 3.2rem;
+}
+
+h1,
+.heading-secondary {
+  font-weight: 600;
+  line-height: 1.05;
+  color: #333;
+  letter-spacing: -1px;
+}
+
+h1 {
+  font-size: 5.2rem;
+  margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  margin-bottom: 9.6rem;
+}
+
+.subheading {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #cf711f;
+  text-transform: uppercase;
+  margin: 1.6rem 0;
+  letter-spacing: 0.75px;
+}
+
+.heading-tertiary {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 1.6rem;
+}
+
+.link:hover,
+.link:active {
+  color: #cf711f;
+  border-bottom: 1px solid transparent;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.list-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #e67e22;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+}
+
+/* HELPER/SETTINGS CLASSES */
+.rmargin {
+  margin-right: 1.6rem !important;
+}
+
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
+}
+
+.center-text {
+  text-align: center;
+}
+
+strong {
+  font-weight: 500;
+}
